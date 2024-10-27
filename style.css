@@ -1,0 +1,32 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* Each year will have a container (div) that contains
+   grid items.
+   Add style for it here
+*/
+.movie-year {
+  display: grid;
+}
+
+/* At the top of each year's data, we want to put
+   a title that says "Top Movies Of Year <XXXX>" 
+   acrosss the whole width of the movie-year container
+*/
+.movie-title {
+  
+}
+
+/* The first row of our data should be styled in some
+   way to indicate that it's a header, bold, background-color, etc
+*/
+.movie-header {
+
+}
+
+/* The rest of the data should be styled here
+*/
+.movie-data {
+}
