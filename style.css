@@ -5,15 +5,18 @@ html {
 
 /* Each year will have a container (div) that contains
    grid items.
-   Add style for it here
+   You will need to define the rows / columns
 */
 .movie-year {
   display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
 }
 
 /* At the top of each year's data, we want to put
    a title that says "Top Movies Of Year <XXXX>" 
    acrosss the whole width of the movie-year container
+   Ie. grid-column-start and end need to be set somehow
 */
 .year-title {
   
